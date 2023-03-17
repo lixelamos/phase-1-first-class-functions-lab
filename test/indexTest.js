@@ -59,11 +59,11 @@ describe('index.js', function () {
 
   describe('fareTripler()', function () {
     it('is a function', function () {
-      expect(fareTripler).to.be.a('function');
+      expect(fareTriple).to.be.a('function');
     });
 
     it('triples fares', function() {
-      expect(fareTripler(12)).to.eql(36);
+      expect(fareTriple(12)).to.eql(36);
     });
   });
 
